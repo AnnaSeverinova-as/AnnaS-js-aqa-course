@@ -11,19 +11,19 @@
 
 // const startOfNumbers = 1;            
 // let counter = 0;
-// for (let i=startOfNumbers;i<11;i++){
+// for (let i=startOfNumbers;i<101;i++){
 //      console.log(counter+=i);
 // }
 
 
 
-//3.Використовуючи цикл while, виведіть в консоль числа від n до 1. (Дано: n = 10)
+// 3.Використовуючи цикл while, виведіть в консоль числа від n до 1. (Дано: n = 10)
 
-// const startOfNumbers = 1;                            
+// const startOfNumbers = 10;                            
 // let i=startOfNumbers;
 // while (i){
 //   console.log(i)
-//   i++;
+//   i--;
 //   if (i>10){
 //     break;
 //   }
@@ -97,10 +97,12 @@
 
 
 //10.Дано масив чисел. Обчисліть суму чисел в цьому масиві. (Дано: масив = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
-// const startOfNumbers = 1;
-// let counter = 0;
-// let i = [1,2,3,4,5,6,7,8,9,10];
-// for (i=startOfNumbers;i<11;i++){
-//   console.log (counter+=i)
+
+
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// let sum = 0;
+// for (i = 0; i < 10; i++) {
+//   sum = sum + arr[i];
 // }
- 
+// console.log(sum);
+
