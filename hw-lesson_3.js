@@ -53,12 +53,13 @@
 
 //6.Обчисліть факторіал числа n, використовуючи цикл. (Дано: n = 7)
 
-// const startOfNumbers = 1;         
-// let counter = 1;
-// for (i=startOfNumbers;i<8;i++){
-//   console.log (counter*=i)
-// }
-
+const startOfNumbers = 1;         
+let counter = 1;
+let sum = 0;
+for (i=startOfNumbers;i<8;i++){
+  sum = counter*=i
+}
+console.log (sum)
 
 
 //7. Виведіть перші n чисел послідовності Фібоначчі. (Дано: n = 10) NOT DONE
@@ -105,4 +106,6 @@
 //   sum = sum + arr[i];
 // }
 // console.log(sum);
+
+
 
