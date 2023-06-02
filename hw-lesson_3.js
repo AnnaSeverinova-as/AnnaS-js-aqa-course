@@ -11,10 +11,11 @@
 
 // const startOfNumbers = 1;            
 // let counter = 0;
+// let sum = 0;
 // for (let i=startOfNumbers;i<101;i++){
-//      console.log(counter+=i);
+//      sum = counter+=i
 // }
-
+// console.log(sum);
 
 
 // 3.Використовуючи цикл while, виведіть в консоль числа від n до 1. (Дано: n = 10)
@@ -82,8 +83,6 @@
 //         console.log(i)
 //     }
 //   }
-
-
   
 //9. Створіть масив чисел від 1 до n, а потім виведіть тільки ті числа, що діляться на 5 без остачі. (Дано: n = 100)
 
