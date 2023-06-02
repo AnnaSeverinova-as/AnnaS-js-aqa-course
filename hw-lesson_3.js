@@ -53,13 +53,13 @@
 
 //6.Обчисліть факторіал числа n, використовуючи цикл. (Дано: n = 7)
 
-const startOfNumbers = 1;         
-let counter = 1;
-let sum = 0;
-for (i=startOfNumbers;i<8;i++){
-  sum = counter*=i
-}
-console.log (sum)
+// const startOfNumbers = 1;         
+// let counter = 1;
+// let sum = 0;
+// for (i=startOfNumbers;i<8;i++){
+//   sum = counter*=i
+// }
+// console.log (sum)
 
 
 //7. Виведіть перші n чисел послідовності Фібоначчі. (Дано: n = 10) NOT DONE
@@ -108,4 +108,34 @@ console.log (sum)
 // console.log(sum);
 
 
+// console.log("TASK 7");
 
+// let start1 = 0;
+// let start2 = 1;
+// console.log(start1);
+// console.log(start2);
+
+// for (let i = 0; i < 8; i++) {
+//   let fibo = start1 + start2; //1
+//   console.log(fibo);
+//   start1 = start2;
+//   start2 = fibo;
+// }
+
+
+// prostie chisla
+
+// console.log("TASK 8");
+// for (task8 = 1; task8 < 101; task8++) {
+//   //для кожного з цього масиву
+//   isPrime = true;
+//   for (t8 = 2; t8 < 101; t8++) {
+//     if (task8 % t8 === 0 && task8 > t8) {
+//       //чекаю множник
+//       isPrime = false;
+//     }
+//   }
+//   if (isPrime && task8 >= 2) {
+//     console.log(task8);
+//   }
+// }
